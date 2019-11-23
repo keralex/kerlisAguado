@@ -1,9 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Quicksand&display=swap');
+
 .navbar {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 
      ul {
         list-style-type: none;

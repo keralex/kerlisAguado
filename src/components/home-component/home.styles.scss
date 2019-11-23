@@ -1,4 +1,88 @@
-.home{
-    height: 80vh;
+.home {
+    height: 100vh;
     width: 100%;
+    background-image: url('../../assets/myself.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35%);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Amatic SC', cursive;
+    .red {
+        color: #B11025;
+    }
+
+    h1 {
+        font-weight: 300;
+
+        &.left-box {
+            font-size: 150px;
+
+            @media screen and (max-width: 600px) {
+                margin: 0;
+                margin-top: -50vh;
+
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 80px;
+
+            }
+        }
+
+    }
+
+    .right-box {
+        font-size: 30px;
+
+        h1 {
+            margin-bottom: 0;
+            font-size: 120px;
+
+            @media screen and (max-width: 600px) {
+                font-size: 60px;
+
+            }
+
+        }
+
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            @media screen and (max-width: 600px) {
+                font-size: 30px;
+
+            }
+
+
+        }
+
+        @media screen and (max-width: 600px) {
+            margin-top: -40vh;
+            margin-bottom: 0;
+
+
+        }
+
+
+        text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        background-position-y: bottom;
+        align-items: start;
+        height: 120vh;
+
+    }
 }
+
+
+
+// mediaquerys
