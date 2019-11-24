@@ -11,6 +11,7 @@
     align-items: center;
     align-content: center;
     font-family: 'Amatic SC', cursive;
+
     .red {
         color: #B11025;
     }
@@ -19,34 +20,23 @@
         font-weight: 300;
 
         &.left-box {
-            font-size: 150px;
+            font-size: 10em;
 
             @media screen and (max-width: 600px) {
                 margin: 0;
                 margin-top: -50vh;
 
             }
-
-            @media screen and (max-width: 600px) {
-                font-size: 80px;
-
-            }
+            
         }
 
     }
 
     .right-box {
-        font-size: 30px;
 
         h1 {
             margin-bottom: 0;
-            font-size: 120px;
-
-            @media screen and (max-width: 600px) {
-                font-size: 60px;
-
-            }
-
+            font-size: 8em;
         }
 
         h2 {
@@ -54,13 +44,7 @@
             font-weight: 300;
             margin-top: 0;
             margin-bottom: 0;
-
-            @media screen and (max-width: 600px) {
-                font-size: 30px;
-
-            }
-
-
+            font-size: 2em;
         }
 
         @media screen and (max-width: 600px) {
@@ -79,10 +63,9 @@
         background-position-y: bottom;
         align-items: start;
         height: 120vh;
+        
 
     }
 }
 
 
-
-// mediaquerys
