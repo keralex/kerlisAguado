@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Home from './components/home-component/home.component';
 import History from './components/history-component/history.component';
+import Skills from './components/skills-components/skillls.components';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       </div>
       <div id='About'>
         <History />
+        <Skills/>
       </div>
       
 
