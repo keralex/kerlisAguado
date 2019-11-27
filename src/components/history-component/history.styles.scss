@@ -6,7 +6,7 @@
     color: #EFEFEF;
     background-color: #161616;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 26%);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -45,9 +45,7 @@
         
     }
     @media screen and (max-width: 600px) {
-        grid-template-columns: 1fr;
-        height: 100%;
-        
+       
 
     }
 
