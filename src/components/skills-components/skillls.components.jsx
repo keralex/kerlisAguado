@@ -10,20 +10,13 @@ const Skills = () => (
           <div class="flip-card-front"><h2>IT SKILLS</h2></div>
           <div class="flip-card-back">
            <ul>
-             <li>HTML</li>
-             <li>CSS</li>
-             <li>JAVASCRIPT</li>
-             <li>SASS</li>
-             <li>SQL</li>
-             <li>TYPESCRIPT</li>
-             <li>ANGULAR 2+</li>
-             <li>REACTJS</li>
-             <li>NOJEJS</li>
-             <li>REDUX</li>
-             <li>FIREBASE</li>
-             <li>BOOTSTRAP</li>
-             <li>JAVA</li>
-             <li>GITHUB</li>
+             <li>HTML CSS</li>
+             <li>JAVASCRIPT TYPESCRIPT</li>
+             <li>SQL FIREBASE</li>
+             <li>REACTJS ANGULAR 2+</li>
+             <li>REDUX NOJEJS</li>
+             <li>BOOTSTRAP SASS</li>
+             <li>GITHUB JAVA</li>
            </ul>
           </div>
         </div>
@@ -36,14 +29,10 @@ const Skills = () => (
           <div class="flip-card-front"><h2>DESIGNING SKILLS</h2></div>
           <div class="flip-card-back">
           <ul>
-             <li>ADOBE PHOTOSHOP</li>
-             <li>ADOBE ILLUSTRATOR</li>
-             <li>CANVA</li>
-             <li>LUNACY</li>
-             <li>WORD</li>
-             <li>EXCEL</li>
-             <li>POWER POINT</li>
-             <li>ONE NOTE</li>
+             <li>PHOTOSHOP</li>
+             <li>ILLUSTRATOR</li>
+             <li>CANVA LUNACY</li>
+             <li>MICROSOFT OFFICE</li>
              <li>GOOGLE DOCS</li>
              <li>GOOGLE SHEETS</li>
            </ul>

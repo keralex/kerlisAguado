@@ -51,7 +51,7 @@ h1{
                 backface-visibility: hidden;
                 border-radius: 400px;
                 border-style: solid;
-                border-width: 0.2em;
+                border-width: 2px;
                 border-color: #B11025;                ;
             }
 
@@ -64,10 +64,20 @@ h1{
             }
 
             .flip-card-back {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 background-color: transparent;
                 transform: rotateY(180deg);
-            }
+                font-size: 2.5em;
+                color: #B11025;
+                font-family: 'Amatic SC', cursive;  
+                word-spacing: 0.2em;
+               li{
+            list-style: none;
 
+            }
+        }
         }
 
         &:hover .flip-card-inner {
