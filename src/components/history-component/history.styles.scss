@@ -14,6 +14,7 @@
     .left-box {
         grid-column-start: 1;
         grid-column-end:3 ;
+        padding: 20px;
         h1 {
             margin: 0;
             font-family: 'Amatic SC', cursive;
@@ -43,10 +44,6 @@
             border-radius:150px;
         }
         
-    }
-    @media screen and (max-width: 600px) {
-       
-
     }
 
 
