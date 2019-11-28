@@ -1,4 +1,5 @@
 import React from 'react';
+import './projects.styles.scss';
 const Project =({title,imageUrl,linkCode,previewCode})=>(
     <div className='circle'>
      <div className="flip-card">
