@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./vProjects.styles.scss";
-
+import Project from '../projects-component/projects.components';
 
 
 export class VProjects extends Component {
@@ -28,7 +28,13 @@ export class VProjects extends Component {
   render() {
     return(
         <div>
-        <h1>holaaaaa</h1>
+          <div className='project'>{
+            this.state.projects.map(({id,...otherSectionProps})=>(
+              <Project key={id} {...otherSectionProps}/>
+            ))
+
+          }
+            </div>
     </div>
     );
    
