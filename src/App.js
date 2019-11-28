@@ -3,6 +3,7 @@ import './App.scss';
 import Home from './components/home-component/home.component';
 import History from './components/history-component/history.component';
 import Skills from './components/skills-components/skillls.components';
+import VProjects from './components/viewProjects-component/vProjects.components';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
             <a href="#About">About</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#">Contact</a>
@@ -30,6 +31,9 @@ function App() {
       <div id='About'>
         <History />
         <Skills/>
+      </div>
+      <div id='projects'>
+        <VProjects/>
       </div>
       
 

@@ -5,10 +5,10 @@ const Skills = () => (
     <h1>MY SKILLS</h1>
 <div className="skills">
     <div className="left-circle"> 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front"><h2>IT SKILLS</h2></div>
-          <div class="flip-card-back">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front"><h2>IT SKILLS</h2></div>
+          <div className="flip-card-back">
            <ul>
              <li>HTML CSS</li>
              <li>JAVASCRIPT TYPESCRIPT</li>
@@ -24,10 +24,10 @@ const Skills = () => (
     </div>
 
     <div className="right-circle">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front"><h2>DESIGNING SKILLS</h2></div>
-          <div class="flip-card-back">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front"><h2>DESIGNING SKILLS</h2></div>
+          <div className="flip-card-back">
           <ul>
              <li>PHOTOSHOP</li>
              <li>ILLUSTRATOR</li>

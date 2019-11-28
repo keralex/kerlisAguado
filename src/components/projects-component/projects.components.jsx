@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+const Projects =()=>(
+    <div>
+        
+    </div>
+)
 
-export class Projects extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
-}
 
 export default Projects;
