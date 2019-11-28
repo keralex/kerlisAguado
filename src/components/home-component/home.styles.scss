@@ -20,6 +20,7 @@
         font-weight: 300;
         &.left-box {
             font-size: 10em;
+            margin: 0;
 
             @media screen and (max-width: 600px) {
                 margin: 0;
