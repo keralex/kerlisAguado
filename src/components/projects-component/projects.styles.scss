@@ -67,16 +67,13 @@
                 color: #B11025;
                 font-family: 'Amatic SC', cursive;
                 word-spacing: 0.2em;
-
-                ul {
-                    padding: 0;
-
-                    li {
-                        list-style: none;
-
-                    }
+                a{
+                    // background-color: aqua;
+                    color: white;
+                    text-decoration: none;
+                    padding:0.2em;
+                    margin: 0.2em;
                 }
-
                 @media screen and (max-width: 600px) {
                     word-spacing: 0em;
                     font-size: 2em;
