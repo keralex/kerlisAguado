@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
     .flip-card {
         background-color: transparent;
         width: 25vw;
@@ -63,7 +64,7 @@
                 align-items: center;
                 background-color: transparent;
                 transform: rotateY(180deg);
-                font-size: 2.5em;
+                font-size: 3em;
                 color: #B11025;
                 font-family: 'Amatic SC', cursive;
                 word-spacing: 0.2em;
@@ -73,6 +74,15 @@
                     text-decoration: none;
                     padding:0.2em;
                     margin: 0.2em;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+                    &:hover {
+                        color: rgb(223, 17, 45);
+                        -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+                    }
                 }
                 @media screen and (max-width: 600px) {
                     word-spacing: 0em;

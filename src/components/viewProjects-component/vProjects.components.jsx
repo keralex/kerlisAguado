@@ -20,6 +20,21 @@ export class VProjects extends Component {
           id: 2,
           linkCode: "https://github.com/keralex",
           previewCode: "none"
+        },
+        {
+          title: "example",
+          imageUrl: "example",
+          id: 2,
+          linkCode: "https://github.com/keralex",
+          previewCode: "none"
+        }
+        ,
+        {
+          title: "example",
+          imageUrl: "example",
+          id: 2,
+          linkCode: "https://github.com/keralex",
+          previewCode: "none"
         }
       ]
     };
