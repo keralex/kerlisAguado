@@ -8,34 +8,24 @@ export class VProjects extends Component {
     this.state = {
       projects: [
         {
-          title: "example",
+          title: "Dress It",
+          description:"eCommerce",
+          lenguajes:"React",
           imageUrl: "example",
           id: 1,
-          linkCode: "https://github.com/keralex",
-          previewCode: "none"
+          linkCode: "https://github.com/keralex/dressIt",
+          previewCode: "https://github.com/keralex/dressIt"
         },
         {
-          title: "example",
+          title: "Background Generator",
+          description:"App to generate background gradiends code.",
+          lenguajes:"Javascript",
           imageUrl: "example",
           id: 2,
-          linkCode: "https://github.com/keralex",
-          previewCode: "none"
+          linkCode: "https://github.com/keralex/Background-Generator",
+          previewCode: "https://keralex.github.io/Background-Generator/"
         },
-        {
-          title: "example",
-          imageUrl: "example",
-          id: 2,
-          linkCode: "https://github.com/keralex",
-          previewCode: "none"
-        }
-        ,
-        {
-          title: "example",
-          imageUrl: "example",
-          id: 2,
-          linkCode: "https://github.com/keralex",
-          previewCode: "none"
-        }
+     
       ]
     };
   }

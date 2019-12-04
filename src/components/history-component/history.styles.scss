@@ -6,14 +6,13 @@
     color: #EFEFEF;
     background-color: #161616;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 50% 30%;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
     .left-box {
-        grid-column-start: 1;
-        grid-column-end:3 ;
+
         padding: 20px;
         h1 {
             margin: 0;
@@ -44,6 +43,10 @@
             border-radius:150px;
         }
         
+    }
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 100%;
+
     }
 
 
