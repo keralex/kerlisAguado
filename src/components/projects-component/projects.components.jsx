@@ -13,18 +13,17 @@ const Project = ({
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <div>
             <h2>{title.toUpperCase()}</h2>
-            <h3>{year}</h3>
-            <h4>{lenguajes}</h4>
-          </div>
+           
         </div>
         <div
           className="flip-card-back"
           style={{ backgroundImage: `url(${imageUrl})` }}
         >
-          <p>{description}</p>
-          <div>
+          <p className='des'>{description}</p>
+           <p>{lenguajes}</p>
+            <p className='year'>{year}</p>
+          <div className='links'>
           <a href={linkCode} target="_blank">
             Code
           </a>

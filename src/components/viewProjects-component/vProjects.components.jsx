@@ -9,7 +9,7 @@ export class VProjects extends Component {
       projects: [
         {
           title: "Dress It",
-          description:"eCommerce",
+          description:"eCommerce App.",
           lenguajes:"React",
           imageUrl: "example",
           id: 1,
@@ -19,7 +19,7 @@ export class VProjects extends Component {
         },
         {
           title: "Background Generator",
-          description:"App to generate background gradiends code.",
+          description:"App to generate backgrounds.",
           lenguajes:"Javascript",
           imageUrl: "example",
           id: 2,
@@ -29,7 +29,7 @@ export class VProjects extends Component {
 
         }, {
           title: "APP TO-DO",
-          description:"Task list app",
+          description:"Task list app.",
           lenguajes:"React JS",
           imageUrl: "example",
           id: 3,
@@ -40,7 +40,7 @@ export class VProjects extends Component {
         },
         {
           title: "pokedex",
-          description:"POKEMON SEARCH APP",
+          description:"Pokemon search app.",
           lenguajes:"ReactJs",
           imageUrl: "example",
           id: 4,
@@ -51,8 +51,8 @@ export class VProjects extends Component {
         },
         {
           title: "VUELOS GUACAMAYA",
-          description:"administrative system simulation of an airline",
-          lenguajes:"Angular/NodeJs/mySQL",
+          description:"System for an airline.",
+          lenguajes:"Angular/NodeJs",
           imageUrl: "example",
           id: 5,
           linkCode: "https://github.com/keralex/Guacamaya",
@@ -62,7 +62,7 @@ export class VProjects extends Component {
         },
         {
           title: "uMakeIt",
-          description:"Delivery Sushi App",
+          description:"Delivery Sushi App.",
           lenguajes:"Angular 6",
           imageUrl: "example",
           id: 6,
