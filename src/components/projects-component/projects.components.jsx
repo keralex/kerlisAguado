@@ -1,5 +1,8 @@
 import React from "react";
 import "./projects.styles.scss";
+
+
+
 const Project = ({
   title,
   description,
@@ -7,9 +10,13 @@ const Project = ({
   imageUrl,
   linkCode,
   previewCode,
+  classn,
   year
-}) => (
-  <div className="circle">
+}) => 
+
+  
+(
+    <div className="circle">
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -27,7 +34,7 @@ const Project = ({
           <a href={linkCode} target="_blank">
             Code
           </a>
-          <a href={previewCode} target="_blank">
+          <a href={previewCode} target="_blank" className={`${classn}`}>
             Preview
           </a>
           </div>
@@ -36,6 +43,7 @@ const Project = ({
       </div>
     </div>
   </div>
-);
+  )
+ 
 
 export default Project;
