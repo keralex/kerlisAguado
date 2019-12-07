@@ -1,28 +1,28 @@
-.wrapper{
-    padding-top: 3em;
-    padding-bottom: 3em;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    h1{
-        font-size: 8em;
-        margin:0;
-    }
-    margin: 0;
+.projects {
+    background-color: #161616;
 
-    .projects{
-            
+    h1 {
+        font-size: 5em;
+        padding-top: 0.8em;
+    }
+
+    .wrapper {
+        padding-top: 3em;
+        padding-bottom: 3em;
         display: grid;
+        grid-template-columns: repeat(4, 22vw);
+        grid-template-rows: repeat(auto-fit,22vw);
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    
-    
-    }
-    @media screen and (max-width: 600px) {
-        grid-template-columns: 100%;
+        margin: 0;
+        grid-row-gap: 2em;
+        grid-column-gap: 2em;
+        overflow: hidden;
 
+
+        @media screen and (max-width: 600px) {
+            grid-template-columns: 100%;
+
+        }
     }
 }

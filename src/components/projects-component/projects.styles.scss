@@ -5,8 +5,8 @@
     margin-bottom: 1em;
     .flip-card {
         background-color: transparent;
-        width: 25vw;
-        height: 25vw;
+        width: 22vw;
+        height: 22vw;
         perspective: 1000px;
         margin: 0;
         @media screen and (max-width: 600px) {
@@ -60,7 +60,7 @@
             }
 
             .flip-card-back {
-                display: flex;
+                display: grid;
                 justify-content: center;
                 align-items: center;
                 background-color: transparent;
@@ -69,6 +69,20 @@
                 color: #B11025;
                 font-family: 'Amatic SC', cursive;
                 word-spacing: 0.2em;
+                grid-template-rows: 50% 50%;
+                grid-template-columns: 100%;
+                p{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.8em;
+                    padding-left: 1em;
+                    padding-right: 1em;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding-top: 2em;
+                    height: 80%;
+                }
                 a{
                     // background-color: aqua;
                     color: white;

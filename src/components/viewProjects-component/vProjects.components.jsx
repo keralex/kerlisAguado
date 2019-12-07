@@ -77,17 +77,17 @@ export class VProjects extends Component {
   }
   render() {
     return (
-      <div className="wrapper">
-           <div className='left'>
+      <div className='projects'>
           <h1>PROJECTS</h1>
-        </div>
-        <div className="projects">
-          {this.state.projects.map(({ id, ...otherSectionProps }) => (
-            <Project key={id} {...otherSectionProps} />
-          ))}
-        </div>
-     
+          <div className="wrapper">
+           
+             {this.state.projects.map(({ id, ...otherSectionProps }) => (
+               <Project key={id} {...otherSectionProps} />
+             ))}
+        
+         </div>
       </div>
+     
     );
   }
 }
