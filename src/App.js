@@ -4,6 +4,7 @@ import Home from './components/home-component/home.component';
 import History from './components/history-component/history.component';
 import Skills from './components/skills-components/skillls.components';
 import VProjects from './components/viewProjects-component/vProjects.components';
+import Contact from './components/contact-component/contact.component';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -35,7 +36,9 @@ function App() {
       <div id='projects'>
         <VProjects/>
       </div>
-      
+      <div id='contact'>
+      <Contact/>
+      </div>
 
     </div>
   );
