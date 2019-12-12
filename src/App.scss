@@ -30,10 +30,17 @@
             transform: scale(1);
             -webkit-transition: .4s ease-in-out;
             transition: .4s ease-in-out;
+            font-size: 1.3em;
             &:hover {
                 color: rgb(200, 104, 113);
                 -webkit-transform: scale(1.1);
                 transform: scale(1.1);
+            }
+            @media screen and (max-width: 600px) {
+         
+                font-size: 1em;
+            
+    
             }
         }
 

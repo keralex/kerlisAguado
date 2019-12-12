@@ -1,6 +1,8 @@
 .projects {
     background-color: #161616;
     color: white;
+    height: 100%;
+
     h1 {
         font-size: 5em;
         padding-top: 0.8em;
@@ -12,7 +14,7 @@
         padding-bottom: 3em;
         display: grid;
         grid-template-columns: repeat(3, 22vw);
-        grid-template-rows: repeat(auto-fit,22vw);
+        grid-template-rows: repeat(auto-fit, 22vw);
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -23,6 +25,7 @@
 
         @media screen and (max-width: 600px) {
             grid-template-columns: 100%;
+            grid-template-rows: repeat(auto-fit, 50vh);
 
         }
     }
