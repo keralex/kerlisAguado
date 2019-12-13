@@ -1,6 +1,6 @@
 {
   "name": "Kerlis",
-  "homepage": "https://keralex.github.io/",
+  "homepage": "https://keralex.github.io/kerlisAguado/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -11,8 +11,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "predeploy": "npm run-script build",
-    "deploy": "gh-pages --directory build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
