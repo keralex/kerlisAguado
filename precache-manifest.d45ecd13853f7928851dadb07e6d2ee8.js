@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5ef627a4435ddc4662d9deae6b6e3d8",
+    "revision": "421f98f22f04708d44a62838473d1be7",
     "url": "/kerlisAguado/index.html"
   },
   {
-    "revision": "c0763773224f2ad140f0",
+    "revision": "19469eae1df71e3a1242",
     "url": "/kerlisAguado/static/css/main.dbe63134.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kerlisAguado/static/js/2.37f0dabb.chunk.js"
   },
   {
-    "revision": "c0763773224f2ad140f0",
-    "url": "/kerlisAguado/static/js/main.2c31539a.chunk.js"
+    "revision": "19469eae1df71e3a1242",
+    "url": "/kerlisAguado/static/js/main.1eb04841.chunk.js"
   },
   {
     "revision": "b480470dc73780411851",

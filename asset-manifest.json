@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kerlisAguado/static/css/main.dbe63134.chunk.css",
-    "main.js": "/kerlisAguado/static/js/main.2c31539a.chunk.js",
-    "main.js.map": "/kerlisAguado/static/js/main.2c31539a.chunk.js.map",
+    "main.js": "/kerlisAguado/static/js/main.1eb04841.chunk.js",
+    "main.js.map": "/kerlisAguado/static/js/main.1eb04841.chunk.js.map",
     "runtime-main.js": "/kerlisAguado/static/js/runtime-main.6f4760c5.js",
     "runtime-main.js.map": "/kerlisAguado/static/js/runtime-main.6f4760c5.js.map",
     "static/js/2.37f0dabb.chunk.js": "/kerlisAguado/static/js/2.37f0dabb.chunk.js",
     "static/js/2.37f0dabb.chunk.js.map": "/kerlisAguado/static/js/2.37f0dabb.chunk.js.map",
     "index.html": "/kerlisAguado/index.html",
-    "precache-manifest.3080f75c5bb750f1721cccf732e1321c.js": "/kerlisAguado/precache-manifest.3080f75c5bb750f1721cccf732e1321c.js",
+    "precache-manifest.d45ecd13853f7928851dadb07e6d2ee8.js": "/kerlisAguado/precache-manifest.d45ecd13853f7928851dadb07e6d2ee8.js",
     "service-worker.js": "/kerlisAguado/service-worker.js",
     "static/css/main.dbe63134.chunk.css.map": "/kerlisAguado/static/css/main.dbe63134.chunk.css.map",
     "static/media/github-logo.svg": "/kerlisAguado/static/media/github-logo.76d344f0.svg",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6f4760c5.js",
     "static/js/2.37f0dabb.chunk.js",
     "static/css/main.dbe63134.chunk.css",
-    "static/js/main.2c31539a.chunk.js"
+    "static/js/main.1eb04841.chunk.js"
   ]
 }
