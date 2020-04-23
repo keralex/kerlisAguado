@@ -14,14 +14,12 @@ const Project = ({
   year
 }) => 
 
-  
 (
-    <div className="circle">
+  <div className="circle">
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
             <h2>{title.toUpperCase()}</h2>
-           
         </div>
         <div
           className="flip-card-back"
