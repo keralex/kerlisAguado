@@ -26,17 +26,16 @@ const Project = ({
           style={{ backgroundImage: `url(${imageUrl})` }}
         >
           <p className='des'>{description}</p>
-           <p>{lenguajes}</p>
-            <p className='year'>{year}</p>
+          <p>{lenguajes}</p>
+          <p className='year'>{year}</p>
           <div className='links'>
-          <a href={linkCode} target="_blank">
-            Code
-          </a>
-          <a href={previewCode} target="_blank" className={`${classn}`}>
-            Preview
-          </a>
+            <a href={linkCode} target="_blank">
+              Code
+            </a>
+            <a href={previewCode} target="_blank" className={`${classn}`}>
+              Preview
+            </a>
           </div>
-         
         </div>
       </div>
     </div>

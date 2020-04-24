@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import "./home.styles.scss";
+import './../../styles/home.styles.scss';
 
 const Home = () => (
-  <div className="home">
-    <h1 className='left-box red'>HELLO</h1>
+  <div className="home_class">
+    <div className='left-box'>
+      <h1>HELLO</h1>
+    </div>
     <div className="right-box">
-      <h1 className='red'>I'M KERLIS</h1>
+      <h1>I'M <br/>KERLIS</h1>
       <h2>WEB DEVELOPER</h2>
-
-
     </div>
   </div>
-);
+)
 
 export default Home;

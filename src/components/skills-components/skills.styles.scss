@@ -46,12 +46,10 @@ h1 {
             transition: transform 0.6s;
             transform-style: preserve-3d;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            border-radius: 400px;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-
-
             .flip-card-front,
             .flip-card-back {
                 position: absolute;
