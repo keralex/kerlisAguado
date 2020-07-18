@@ -16,7 +16,6 @@ export class VProjects extends Component {
           linkCode: "https://github.com/keralex/dressIt",
           previewCode: null,
           classn: "null",
-
           year: "2019"
         },
         {
@@ -36,9 +35,7 @@ export class VProjects extends Component {
           imageUrl: "example",
           id: 3,
           linkCode: "https://github.com/keralex/ToDo-React",
-          previewCode: null,
-          classn: "null",
-
+          previewCode:"https://keralex.github.io/ToDo-React/",
           year: "2019"
         },
         {

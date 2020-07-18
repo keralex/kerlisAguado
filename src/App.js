@@ -13,9 +13,6 @@ function App() {
       <div className="navbar">
         <ul>
           <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
             <a href="#About">About</a>
           </li>
           <li>

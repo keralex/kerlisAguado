@@ -13,7 +13,6 @@ const Contact = () => (
         <p>Hi! if you want us to work toguether contact me!</p>
         <p>I'm available for frelance projects and full-time jobs.</p>
         <p>Kerlis.aguado26@gmail.com</p>
-        <p>+54 911 54635604</p>
         <div className="icons">
           <div className="box">
             <a href='https://twitter.com/codeloverK' target="_blank"><img src={twitter} alt="twitter icon" /></a>
