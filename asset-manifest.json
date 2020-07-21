@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kerlisAguado/static/css/main.65688829.chunk.css",
-    "main.js": "/kerlisAguado/static/js/main.e1e565c7.chunk.js",
-    "main.js.map": "/kerlisAguado/static/js/main.e1e565c7.chunk.js.map",
+    "main.css": "/kerlisAguado/static/css/main.2aeda9e7.chunk.css",
+    "main.js": "/kerlisAguado/static/js/main.f485c16d.chunk.js",
+    "main.js.map": "/kerlisAguado/static/js/main.f485c16d.chunk.js.map",
     "runtime-main.js": "/kerlisAguado/static/js/runtime-main.6f4760c5.js",
     "runtime-main.js.map": "/kerlisAguado/static/js/runtime-main.6f4760c5.js.map",
     "static/js/2.54797a63.chunk.js": "/kerlisAguado/static/js/2.54797a63.chunk.js",
     "static/js/2.54797a63.chunk.js.map": "/kerlisAguado/static/js/2.54797a63.chunk.js.map",
     "index.html": "/kerlisAguado/index.html",
-    "precache-manifest.a84425479e92c80e1a382edacc1eb7b2.js": "/kerlisAguado/precache-manifest.a84425479e92c80e1a382edacc1eb7b2.js",
+    "precache-manifest.9a1ced1db40c9ad456d8a723dab3e41b.js": "/kerlisAguado/precache-manifest.9a1ced1db40c9ad456d8a723dab3e41b.js",
     "service-worker.js": "/kerlisAguado/service-worker.js",
-    "static/css/main.65688829.chunk.css.map": "/kerlisAguado/static/css/main.65688829.chunk.css.map",
+    "static/css/main.2aeda9e7.chunk.css.map": "/kerlisAguado/static/css/main.2aeda9e7.chunk.css.map",
     "static/media/github-logo.svg": "/kerlisAguado/static/media/github-logo.76d344f0.svg",
     "static/media/imagen.jpg": "/kerlisAguado/static/media/imagen.b67b1c3c.jpg",
     "static/media/home.styles.scss": "/kerlisAguado/static/media/myself.054081e9.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.6f4760c5.js",
     "static/js/2.54797a63.chunk.js",
-    "static/css/main.65688829.chunk.css",
-    "static/js/main.e1e565c7.chunk.js"
+    "static/css/main.2aeda9e7.chunk.css",
+    "static/js/main.f485c16d.chunk.js"
   ]
 }
